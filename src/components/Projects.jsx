@@ -1,5 +1,16 @@
 import React from "react";
 import data from "../data/Repositorios.json";
+import githubImage from "../assets/githubImage.png";
+import calculadora from "../assets/calculadora.png";
+import clauvanaModa from "../assets/clauvanaModa.png";
+
+
+
+const images = {
+  "githubImage.png": githubImage,
+  "calculadora.png": calculadora,
+  "clauvanaModa.png": clauvanaModa,
+};
 
 function Projects() {
   return (
@@ -46,7 +57,7 @@ function Projects() {
               }
             >
               <img
-                src={import.meta.env.BASE_URL + "src/assets/" + project.image}
+                src={images[project.image]}
                 alt={project.title}
                 className="img-project"
               />
