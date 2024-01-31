@@ -31,16 +31,16 @@ function About() {
       }}>
         <p
         >
-          Bienvenidos a mi porfolio mi nombre es Juan Ignacio Marcos Merlo,
+          Bienvenidos a mi porfolio. Mi nombre es Juan Ignacio Marcos Merlo,
           tengo 30 años y actualemente vivo en la localidad de Temperley, partido de Lomas de Zamora,
            Buenos Aires, Argentina.
         </p>
         <p>
-          Comence hace un año como desarrollador web en CoderHouse y luego me
-          dedique a estudiar de forma autodidacta, desarrollando habilidades en
-          logica y resolucion de problemas. Y actualmente estoy haciendo la
-          carrera de Programacion en la Universidad Nacional Guillermo Brown,
-          Unab, de Adrogue.
+          Comencé hace un año como desarrollador web en CoderHouse y luego me
+          dediqué a estudiar de forma autodidacta, desarrollando habilidades en
+          lógica y resolución de problemas. Actualmente me encuentro cursando la
+          carrera de Programacion en la Universidad Nacional Guillermo Brown (Unab),
+           de Adrogue.
         </p>
       <Cv />
       </div>
