@@ -17,10 +17,12 @@
 
 
 .header{
-    padding: 30px;
-    color: #fff;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    color: #fff;
+    display: flex;
     align-items: center;
 }
 .firstTitle{
@@ -127,6 +129,45 @@
     border-radius:  62% 38% 44% 56% / 46% 36% 64% 54% ;
     background-image: linear-gradient(to top, #00000068 20%,#a4a2a271);
 }
+
+
+  
+  .menu-button {
+    display: none;
+  }
+
+  .closeIcon{
+    background-color: black;
+    color: #D1E500;
+  }
+  .openIcon{
+    background-color: black;
+    color: #D1E500;
+  }
+  .linksItems{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  @media (max-width: 500px) {
+    .menu-button {
+        background-color: transparent;
+      display: block;
+      border: 0;
+      cursor: pointer;
+    }
+  
+    .navLinks {
+      display: none;
+    }
+  
+    .navLinks.open {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
 
 .navLinks:hover > li {
     opacity: 0.5;

@@ -1,9 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import icon from "../assets/navbar-icon.png";
+import MenuIcon from '@mui/icons-material/Menu';
+import CloseIcon from '@mui/icons-material/Close';
 
 function Header({ background }) {
   const [scrollPosition, setScrollPosition] = useState(0);
+  const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -20,6 +23,7 @@ function Header({ background }) {
     <div
       className="header"
       style={{
+        overflow: "hidden",
         zIndex: '2',
         width: "100%",
         position: "fixed",
@@ -37,11 +41,13 @@ function Header({ background }) {
           height: "60px"
         }}
       />
-      <nav>
+      <nav className="linksItems">
+        <button className={`menu-button ${isOpen ? 'open' : ''}`} onClick={() => setIsOpen(!isOpen)}>
+          {isOpen ? <CloseIcon className="closeIcon"/> : <MenuIcon className="openIcon" />}
+        </button>
         <ul
-          className="navLinks"
+          className={`navLinks ${isOpen ? 'open' : ''}`}
           style={{
-            display: "flex",
             listStyle: "none",
             color: "#fff",
             gap: "30px"
