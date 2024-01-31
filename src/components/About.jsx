@@ -6,6 +6,7 @@ function About() {
     <div 
     className="containerAbout"
     style={{
+      overflow: "hidden",
       position: "relative",
       padding: "20px",
       display: "flex",
