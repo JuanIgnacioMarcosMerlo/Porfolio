@@ -7,7 +7,7 @@ const Cv = () => {
     style={{
       padding: '20px 20px 100px 0px',
       display:'inline-block',
-      width: '20%',
+      width: '30%',
     }}>
       <a
         className='cvItem'

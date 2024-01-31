@@ -42,8 +42,8 @@ function About() {
           carrera de Programacion en la Universidad Nacional Guillermo Brown,
           Unab, de Adrogue.
         </p>
-      </div>
       <Cv />
+      </div>
       </div>
       <div className="stoneAboutOne"></div>
       <div className="stoneAboutTwo"></div>
