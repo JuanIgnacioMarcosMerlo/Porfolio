@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+@keyframes scroll {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-family: 'Open Sans', sans-serif;
+    color:#fff;
+}
+
+
+.header{
+    padding: 30px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.firstTitle{
+    padding-left: 20px;
+    font-size: 1.5rem;
+}
+.navLinks{
+    padding-right: 20px;
+    display: flex;
+    gap: 10px;
+}
+.links{
+    font-size: 1rem;
+    color:#fff;
+    text-decoration:none;
+}
+
+
+.presentationPortal{
+    text-decoration: none;
+    height: 100vh;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 2),
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 3)
+    ),
+    url('../src/assets/galaxiacentauro.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 15rem 3rem 3rem 5rem;
+}
+.lista{
+    list-style: none;
+    height: 100px;
+    display: flex;
+    gap: 10px;
+}
+.icons {
+    display: block;
+    color: #000;
+    &:hover{
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.3);
+        transition: 0.6s ease-in-out;
+        transform: translateY(-5px);
+  }
+}
+.cvItem:hover > .downloadIcon{
+    transform: translate(0, 2.5px);
+    transition: all 0.8s ease-in-out;
+}
+
+.navLinks > li {
+    opacity: 1;
+    transition:  0.3s ease;
+  }
+
+.spanTextTitle{
+    background-image: linear-gradient(to left, rgb(210, 173, 255) 0%,rgb(0, 0, 0) 90%, rgb(0, 0, 0) 10%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+}
+.stoneAboutOne{
+    position : absolute;
+    top: 10%;
+    left: 55%;
+    width: 400px;
+    height: 400px;
+    border-radius:  30% 70% 70% 30% / 46% 36% 64% 54%;
+    background-image: linear-gradient(to top, #0000007a 20%,#a4a2a28b);
+
+}
+.stoneAboutTwo{
+    position : absolute;
+    top: 90%;
+    left: 20%;
+    width: 40px;
+    height: 40px;
+    border-radius:  54% 46% 32% 68% / 66% 45% 55% 34% ;
+    background-image: linear-gradient(to top, #0000007a 20%,#a4a2a28b);
+
+}
+.stoneProjectOne{
+    position : absolute;
+    top: 30%;
+    left: 70%;
+    width: 500px;
+    height: 500px;
+    border-radius:  62% 38% 44% 56% / 46% 36% 64% 54% ;
+    background-image: linear-gradient(to top, #00000068 20%,#a4a2a271);
+}
+.stoneProjectTwo{
+    position : absolute;
+    top: 70%;
+    left: 10%;
+    width: 200px;
+    height: 200px;
+    border-radius:  62% 38% 44% 56% / 46% 36% 64% 54% ;
+    background-image: linear-gradient(to top, #00000068 20%,#a4a2a271);
+}
+
+.navLinks:hover > li {
+    opacity: 0.5;
+  }
+.navLinks > li:hover {
+    opacity: 1;
+}
+.textLinkItem{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.linkItem:hover{
+    cursor: pointer;
+    transform: scale(1.1) translate(0, -5px);
+    transition: 0.6s ease-in-out;
+}
+
+
+.img-project{
+    border-radius: 5px;
+    height: 235px;
+    width: 100%;
+}
+
+
+
+.img-container:hover .img-project{
+    filter: brightness(25%);
+    transition: 0.85s ease-in-out;
+}
+
+.btn-img{
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: #D1E500;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    &:hover{
+        cursor: pointer;
+        transition: 0.6s ease-in-out;
+        transform: translateY(-5px) scale(1.1);
+    }
+}
+
+.information{
+    background: radial-gradient(circle, rgba(96,56,144,1) 0%, rgba(0,0,0,1) 60%);
+}

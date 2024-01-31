@@ -1,0 +1,34 @@
+[
+    {
+        "id":"1",
+        "image":"githubImage.png",
+        "title":"Ecommerce",
+        "url":"https://github.com/JuanIgnacioMarcosMerlo/ReactJsCoder.git",
+        "github":"https://github.com/JuanIgnacioMarcosMerlo/ReactJsCoder.git",
+        "description":"Ecommerce, utilizando API"
+    },
+    {
+        "id":"2",
+        "image":"calculadora.png",
+        "title":"Calculadora",
+        "url":"https://j-scoder-ten.vercel.app/",
+        "github":"https://github.com/JuanIgnacioMarcosMerlo/JScoder.git",
+        "description":"Calculadora simple con las operaciones básicas"
+    },
+    {
+        "id":"3",
+        "image":"clauvanaModa.png",
+        "title":"Clauvana Moda",
+        "url":"https://proyecto-coder-olive-ten.vercel.app/",
+        "github":"https://github.com/JuanIgnacioMarcosMerlo/ProyectoCoder.git",
+        "description":"Sitio web de venta de ropa femenina"
+    },
+    {
+        "id":"4",
+        "image":"githubImage.png",
+        "title":"Data Base Clauvana",
+        "url":"https://github.com/JuanIgnacioMarcosMerlo/ClauvanaDB.git",
+        "github":"https://github.com/JuanIgnacioMarcosMerlo/ClauvanaDB.git",
+        "description":"DB de Clauvana con datos aleatorios"
+    }
+]

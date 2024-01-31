@@ -1,0 +1,1 @@
+padding:'.7rem' ,fontSize: 70, backgroundColor:'#fff',borderRadius:'100%'
