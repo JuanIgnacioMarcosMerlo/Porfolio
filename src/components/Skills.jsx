@@ -1,5 +1,36 @@
 import React from 'react';
-import lang from '../data/Language.json'
+import lang from '../data/Language.json';
+import reactVite from "../assets/react-vite.png";
+import reactCra from "../assets/react-cra.png";
+import nodejs from "../assets/nodejs.png";
+import mysql from "../assets/mysql.png";
+import javascript from "../assets/javascript.png";
+import sass from "../assets/sass.png";
+import tailwind from "../assets/tailwind.png";
+import bootstrap from "../assets/bootstrap.png";
+import css from "../assets/css.png";
+import html from "../assets/html.png";
+import firebase from "../assets/firebase.png";
+import npm from "../assets/npm.png";
+import git from "../assets/git.png";
+
+
+
+const images = {
+  "react-vite.png": reactVite,
+  "react-cra.png": reactCra,
+  "nodejs.png": nodejs,
+  "mysql.png": mysql,
+  "javascript.png": javascript,
+  "sass.png": sass,
+  "tailwind.png": tailwind,
+  "bootstrap.png": bootstrap,
+  "css.png": css,
+  "html.png": html,
+  "firebase.png": firebase,
+  "npm.png": npm,
+  "git.png": git,
+};
 
 function Skills() {
   return (
@@ -32,7 +63,7 @@ function Skills() {
               justifyContent: 'center',
               alignItems: 'center',
             }}>
-              {value && <img src={import.meta.env.BASE_URL + "src/assets/" + value} alt={key} />}
+              {value && <img src={images[value]} alt={key} />}
               <span style={{
                 color: '#fff',
                 fontSize: '.85rem',
