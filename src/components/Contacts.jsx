@@ -14,7 +14,9 @@ function Contacts() {
     }}>
       <Networks />
       <h3>Gracias por visitar mi porfolio</h3>
-      <span>Copyright © 2023 Juan Ignacio Marcos Merlo. All rights reserved.</span>
+      <span style={{textWrap:'balance',
+    textAlign:'center'
+    }}>Copyright © 2023 Juan Ignacio Marcos Merlo. All rights reserved.</span>
     </div>
   )
 }
