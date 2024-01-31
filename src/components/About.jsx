@@ -8,7 +8,6 @@ function About() {
       style={{
         width: "100%",
         height: "100vh",
-        border:'2px solid blue',
         overflow: "hidden",
         position: "relative",
         padding: "20px",
@@ -18,7 +17,6 @@ function About() {
       <div
         style={{
           width:'100%',
-          border: "red 2px solid"
         }}
       >
         <h2
