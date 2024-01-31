@@ -63,7 +63,7 @@ function Skills() {
               justifyContent: 'center',
               alignItems: 'center',
             }}>
-              {value && <img src={images[value]} alt={key} />}
+              <img src={images[value]} alt={key} />
               <span style={{
                 color: '#fff',
                 fontSize: '.85rem',
