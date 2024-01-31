@@ -161,7 +161,9 @@
     .navLinks {
       display: none;
     }
-  
+    .cvContainer{
+        width: 100%;
+    }
     .navLinks.open {
       display: flex;
       flex-direction: column;

@@ -4,6 +4,7 @@ import GetAppIcon from '@mui/icons-material/GetApp';
 const Cv = () => {
   return (
     <div
+    className='cvContainer'
     style={{
       padding: '20px 20px 100px 0px',
       display:'inline-block',
