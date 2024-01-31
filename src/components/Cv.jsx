@@ -6,7 +6,6 @@ const Cv = () => {
     <div
     className='cvContainer'
     style={{
-      padding: '20px 20px 100px 0px',
       display:'inline-block',
       width: '30%',
     }}>
@@ -20,7 +19,6 @@ const Cv = () => {
           justifyContent: 'center',
           alignItems: 'center',
           gap: '10px',
-          padding: '5px 10px',
           backgroundColor: 'rgba(96,56,144,1)',
           borderRadius: '5px',
           textDecoration: 'none'
