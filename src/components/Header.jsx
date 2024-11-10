@@ -24,7 +24,7 @@ function Header({ background }) {
       className="header"
       style={{
         overflow: "hidden",
-        zIndex: '2',
+        zIndex: '3',
         width: "100%",
         position: "fixed",
         backgroundColor: scrollPosition > 50 ? "#000" : "transparent",

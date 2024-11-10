@@ -6,13 +6,12 @@ const Cv = () => {
     <div
     className='cvContainer'
     style={{
-      display:'inline-block',
-      width: '30%',
+      width: '20%',
     }}>
       <a
         className='cvItem'
-        href="/JuanIgnacio_MarcosMerlo_CV.pdf"
-        download="JuanIgnacio_MarcosMerlo_CV.pdf"
+        href="/Juan-Ignacio-Marcos-Merlo_CV-MERN.pdf"
+        download="Juan-Ignacio-Marcos-Merlo_CV-MERN.pdf"
         style={{
           height: '50px',
           display: 'flex',

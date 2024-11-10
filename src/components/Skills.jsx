@@ -46,14 +46,15 @@ function Skills() {
       style={{textAlign:'center',
       color:'#fff',
       fontSize:'2.5rem'}}>Skills</h2>
-      <div style={{width: '60vw', overflow: 'hidden'}}>
+      <div style={{width: '60vw', overflow: 'hidden',}}>
         <ul style={{
           listStyle:'none',
           display:'flex',
           alignItems:'baseline',
           gap:'40px',
           animation: 'scroll 20s linear infinite',
-          whiteSpace: 'nowrap'
+          whiteSpace: 'nowrap',
+          
           }}>
           {Object.entries(lang).map(([key, value], index) => (
             <li key={index} style={{
