@@ -1,8 +1,15 @@
-# React + Vite
+# Portfolio de Juan Ignacio Marcos Merlo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio con estética de terminal IBM 3270 / ISPF. React, TypeScript, Vite y Tailwind.
 
-Currently, two official plugins are available:
+```bash
+npm install
+npm run dev      # desarrollo
+npm run build    # verifica tipos y genera dist/
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Dónde cargar el contenido
+
+- **Proyectos:** `src/data/projects.ts`. Las instrucciones están al principio del archivo. Las capturas van en `public/projects/`.
+- **Perfil, stack y bitácora:** `src/data/profile.ts`.
+- **CV:** reemplazá `public/CV_JuanIgnacioMarcosMerlo.pdf`.
